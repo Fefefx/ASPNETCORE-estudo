@@ -1,0 +1,2 @@
+dotnet ef --startup-project  ../MVC/MVC.csproj migrations add AdicionandoCategoria 
+dotnet ef --startup-project ../MVC/MVC.csproj database update

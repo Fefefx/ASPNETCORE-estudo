@@ -1,0 +1,11 @@
+C:\Users\felip\curso\bin\Debug\netcoreapp2.2\curso.deps.json
+C:\Users\felip\curso\bin\Debug\netcoreapp2.2\curso.runtimeconfig.json
+C:\Users\felip\curso\bin\Debug\netcoreapp2.2\curso.runtimeconfig.dev.json
+C:\Users\felip\curso\bin\Debug\netcoreapp2.2\curso.dll
+C:\Users\felip\curso\bin\Debug\netcoreapp2.2\curso.pdb
+C:\Users\felip\curso\obj\Debug\netcoreapp2.2\curso.csprojAssemblyReference.cache
+C:\Users\felip\curso\obj\Debug\netcoreapp2.2\curso.csproj.CoreCompileInputs.cache
+C:\Users\felip\curso\obj\Debug\netcoreapp2.2\curso.AssemblyInfoInputs.cache
+C:\Users\felip\curso\obj\Debug\netcoreapp2.2\curso.AssemblyInfo.cs
+C:\Users\felip\curso\obj\Debug\netcoreapp2.2\curso.dll
+C:\Users\felip\curso\obj\Debug\netcoreapp2.2\curso.pdb
