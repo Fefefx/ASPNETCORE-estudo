@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\felip\\Documents\\webMiddleware\\EfCore\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "c:\\Users\\felip\\Documents\\ASPNETCORE-estudo\\EfCore\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Users\\felip\\Documents\\webMiddleware\\EfCore\\Dominio\\Dominio.csproj",
+      "projectPath": "c:\\Users\\felip\\Documents\\ASPNETCORE-estudo\\EfCore\\Dominio\\Dominio.csproj",
       "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\felip\\Documents\\webMiddleware\\EfCore\\Dominio\\obj\\",
+      "outputPath": "c:\\Users\\felip\\Documents\\ASPNETCORE-estudo\\EfCore\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -12454,11 +12454,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\felip\\Documents\\webMiddleware\\EfCore\\MVC\\MVC.csproj",
+      "projectUniqueName": "C:\\Users\\felip\\Documents\\ASPNETCORE-estudo\\EfCore\\MVC\\MVC.csproj",
       "projectName": "MVC",
-      "projectPath": "C:\\Users\\felip\\Documents\\webMiddleware\\EfCore\\MVC\\MVC.csproj",
+      "projectPath": "C:\\Users\\felip\\Documents\\ASPNETCORE-estudo\\EfCore\\MVC\\MVC.csproj",
       "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\felip\\Documents\\webMiddleware\\EfCore\\MVC\\obj\\",
+      "outputPath": "C:\\Users\\felip\\Documents\\ASPNETCORE-estudo\\EfCore\\MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12475,11 +12475,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\felip\\Documents\\webMiddleware\\EfCore\\Dados\\Dados.csproj": {
-              "projectPath": "C:\\Users\\felip\\Documents\\webMiddleware\\EfCore\\Dados\\Dados.csproj"
+            "C:\\Users\\felip\\Documents\\ASPNETCORE-estudo\\EfCore\\Dados\\Dados.csproj": {
+              "projectPath": "C:\\Users\\felip\\Documents\\ASPNETCORE-estudo\\EfCore\\Dados\\Dados.csproj"
             },
-            "C:\\Users\\felip\\Documents\\webMiddleware\\EfCore\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\felip\\Documents\\webMiddleware\\EfCore\\Dominio\\Dominio.csproj"
+            "C:\\Users\\felip\\Documents\\ASPNETCORE-estudo\\EfCore\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\felip\\Documents\\ASPNETCORE-estudo\\EfCore\\Dominio\\Dominio.csproj"
             }
           }
         }
