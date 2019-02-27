@@ -1,2 +1,4 @@
 dotnet ef --startup-project  ../MVC/MVC.csproj migrations add AdicionandoCategoria 
 dotnet ef --startup-project ../MVC/MVC.csproj database update
+dotnet ef --startup-project ../MVC/MVC.csproj database update [nome-migration-quero-voltar]
+dotnet ef --startup-project ../MVC/MVC.csproj migrations remove 

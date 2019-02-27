@@ -21,8 +21,14 @@ namespace Dados
             modelBuilder.Entity<Produto>().Property(p=>p.Nome).HasMaxLength(50);
             //Define a propriedade Numero como chave primária da tabela resultante do mapeamento da entidade Produto
             //modelBuilder.Entity<Produto>().HasKey(p=>p.Numero);
+            modelBuilder.Entity<Pedido>().HasKey(p =>p.Numero);
+            //Define que o banco de dados obterá a data atual e populará o campo Data resultante do mapeamento da entidade Pedido
+            modelBuilder.Entity<Pedido>().Property(p => p.Data)
+                .IsRequired()
+                .HasDefaultValueSql("getDate();");
         }
         public DbSet<Categoria> Categorias {get; set;}
-        public DbSet<Produto> Produtos {get; set;}   
+        public DbSet<Produto> Produtos {get; set;}
+        public DbSet<Pedido> Pedido {get; set;}
     }
 }
