@@ -1,0 +1,32 @@
+@model IEnumerable<NaturaDomain.Model.Category>
+@{
+    ViewData["Title"] = "Categoria de produtos";
+}
+<h2>Lista de categorias</h2>
+<a href="/Category/Save" class="btn">Adicionar categoria</a>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-hover">
+            <thead>
+                <th>Categoria</th>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.name</td>
+                        <td>
+                            <a href="/Category/Edit/@item.id" class="btn">Editar</a>
+                            <a href="/Category/Delete/@item.id" class="btn btn-delete">Excluir</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@section Scripts{
+    <script>
+        let controller = new ValidationController('btn-delete','Deseja mesmo excluir a categoria ?');
+    </script>
+}

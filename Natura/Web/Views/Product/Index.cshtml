@@ -1,0 +1,44 @@
+@model IEnumerable<NaturaDomain.Model.Product>
+@{
+    ViewData["Title"] = "Listar produtos";
+}
+<h2>Lista de produtos</h2>
+<a href="/Product/Save" class="btn">Novo produto</a>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-hover">
+            <thead>
+                <th></th>
+                <th>Nome</th>
+                <th>Categoria</th>
+                <th>Quantidade</th>
+                <th>Tamanho</th>
+                <th>Unidade</th>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>Image</td>
+                        <td>@item.name</td>
+                        <td>@item.Category.name</td>
+                        <td>@item.amount</td>
+                        <td>@item.size</td>
+                        <td>@item.unity</td>
+                        <td>
+                            <a href="/Product/Edit/@item.id" class="btn">Editar</a>
+                        </td>
+                        <td>
+                            <a href="/Product/Delete/@item.id" class="btn btn-delete">Deletar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+@section Scripts{
+    <script>
+        let controller = new ValidationController('btn-delete','Deseja mesmo excluir o produto ?');
+    </script>
+}

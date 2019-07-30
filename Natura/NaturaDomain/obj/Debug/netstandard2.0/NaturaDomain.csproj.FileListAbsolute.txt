@@ -1,0 +1,9 @@
+/home/felipe/Documentos/Projetos/Natura/NaturaDomain/bin/Debug/netstandard2.0/NaturaDomain.deps.json
+/home/felipe/Documentos/Projetos/Natura/NaturaDomain/bin/Debug/netstandard2.0/NaturaDomain.dll
+/home/felipe/Documentos/Projetos/Natura/NaturaDomain/bin/Debug/netstandard2.0/NaturaDomain.pdb
+/home/felipe/Documentos/Projetos/Natura/NaturaDomain/obj/Debug/netstandard2.0/NaturaDomain.csprojAssemblyReference.cache
+/home/felipe/Documentos/Projetos/Natura/NaturaDomain/obj/Debug/netstandard2.0/NaturaDomain.csproj.CoreCompileInputs.cache
+/home/felipe/Documentos/Projetos/Natura/NaturaDomain/obj/Debug/netstandard2.0/NaturaDomain.AssemblyInfoInputs.cache
+/home/felipe/Documentos/Projetos/Natura/NaturaDomain/obj/Debug/netstandard2.0/NaturaDomain.AssemblyInfo.cs
+/home/felipe/Documentos/Projetos/Natura/NaturaDomain/obj/Debug/netstandard2.0/NaturaDomain.dll
+/home/felipe/Documentos/Projetos/Natura/NaturaDomain/obj/Debug/netstandard2.0/NaturaDomain.pdb
